@@ -99,10 +99,10 @@ mirage-ssh-honeypot/
 ├── ssh_honeypot.py       # Main Paramiko honeypot
 ├── dashboard.py          # Live terminal dashboard
 ├── start_mirage.sh       # One-command launcher
-├── .gitignore            # Prevents secrets/logs/keys from being committed
-└── assets/
-    ├── dashboard.png
-    └── demo-session.jpg
+├── .env.example          # Example local configuration
+├── .gitignore             # Prevents secrets/logs/keys from being committed
+├── dashboard.png         # Live dashboard screenshot
+└── demo-session.jpg      # SSH session demonstration
 ```
 
 ## Setup
@@ -151,11 +151,11 @@ After authentication, commands entered into the fake shell are recorded as honey
 
 ### Live Dashboard
 
-![Mirage live dashboard](assets/dashboard.png)
+![Mirage live dashboard](dashboard.png)
 
 ### SSH Session + Monitoring
 
-![Mirage SSH session and monitoring](assets/demo-session.jpg)
+![Mirage SSH session and monitoring](demo-session.jpg)
 
 ## Security Design
 

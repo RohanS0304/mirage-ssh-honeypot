@@ -1,0 +1,11 @@
+.env
+mirage_ed25519_host_key
+*.pyc
+__pycache__/
+logs/
+*.backup
+*_backup.py
+*.backup-*
+mirage_ed25519_host_key.pub
+mirage_host_key
+mirage_host_key.pub
